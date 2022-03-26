@@ -1,0 +1,12 @@
+[plugin]
+name = "Base"
+description = "Autorun base plugin"
+author = "You"
+version = "0.1.0"
+language = "lua"
+
+# Custom settings for your plugin. The user can manage them here (or in the future, will be able to through the CLI)
+# These will be passed through lua with Autorun.Plugin.Settings.
+[settings]
+TheNumber = 512
+CanUseAnyTypeFromToml = {}
